@@ -12,7 +12,7 @@ section {
   color: white;
   font-size: 42pt;
 } /* herbruikbare text classes */
-.text-title-bit{
+.text-title-bit {
   color: white;
   font-size: 24pt;
 }
@@ -57,41 +57,7 @@ section {
   scale: 220%;
   gap: 1.5vw;
 }
-.gradient {
-  background: linear-gradient(to right, #ffc857, white, violet);
-  background-size: 150% 150%;
-  animation: rainbow 8s ease-in-out infinite;
-  color: rgba(0, 0, 0, 1);
-  width: 50vw;
-  margin: 30vh auto;
-  display: block;
-  text-align: center;
-  transition: color 0.8s ease-in-out;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 42pt;
-  color: white;
-}
-.gradient:hover {
-  color: rgba(0, 0, 0, 0);
-}
-@keyframes rainbow {
-  0% {
-    background-position: left;
-  }
-  25% {
-    background-position: right;
-  }
-  50% {
-    background-position: left;
-  }
-  75% {
-    background-position: right;
-  }
-  100% {
-    background-position: left;
-  }
-}
+
 /* Einde onboarding */
 /* Header */
 #header-normal {
@@ -480,8 +446,7 @@ textarea {
   color: #f2f3eb;
 }
 
-body{
- 
-background-image: linear-gradient(30deg, #6f6f6f77, #ffffff);
+body {
+  background-image: linear-gradient(30deg, #6f6f6f77, #ffffff);
 }
 /*!!nog altijd niet over achtergrond uit!!*/
