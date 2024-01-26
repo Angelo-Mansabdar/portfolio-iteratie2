@@ -5,7 +5,7 @@
 a {
   text-decoration: none;
 }
-section{
+section {
   margin-top: 4vh;
 }
 .title {
@@ -16,7 +16,7 @@ section{
   color: white;
   font-size: 12pt;
 }
-.text-medium{
+.text-medium {
   padding: 25px;
   color: white;
   line-height: 25px;
@@ -126,9 +126,9 @@ header p {
 .line:hover::after {
   width: 100%;
   transition: all 0.4s;
-}/*lijn hover onder */
+} /*lijn hover onder */
 /* Eind header */
-#welkom-container{
+.welkom-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -140,29 +140,29 @@ header p {
   height: 50vh;
   margin-bottom: 12vh;
 }
-#welkom-align-text {
+.welkom-align-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 100px;
   font-weight: 500;
 }
-#welkom-header {
-  color: #1C3738;
+.welkom-header {
+  color: #1c3738;
   font-size: 36pt;
   display: flex;
   justify-content: center;
 }
-#welkom-textblok {
-  background-color: #1C3738;
+.welkom-textblok {
+  background-color: #1c3738;
   border-radius: 25px;
   height: 40vh;
   width: 50vw;
 }
-#basic-img-scale{
+#basic-img-scale {
   height: 60vh;
 }
-#angelo{
+#angelo {
   width: 100%;
   height: 100%;
   border-radius: 6%;
@@ -178,7 +178,7 @@ header p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFC857;
+  background-color: #ffc857;
   width: 20vw;
   height: 40vh;
   border-radius: 6%;
@@ -209,12 +209,12 @@ header p {
   padding: 5%;
   width: 45%;
 }
-#alt-title-color{
+#alt-title-color {
   color: #8baaad;
   font-size: 32pt;
   font-weight: 500;
 }
-#logo-scale{
+#logo-scale {
   margin-top: 80px;
   margin-left: 30px;
   width: 25%;
@@ -227,14 +227,16 @@ header p {
   justify-content: center;
   text-align: center;
   border-radius: 25px;
-  background-image: url(../Image/HtmlCode2.png);
-  width: 38vw;
-  height: 75vh;
   background-size: cover;
 }
 .html-img h1 {
   color: white;
   font-size: 24pt;
+}
+.img-front {
+  background-image: url(../Image/HtmlCode2.png);
+  width: 38vw;
+  height: 75vh;
 }
 #kleine-nav-onder {
   display: flex;
@@ -255,12 +257,11 @@ header p {
   display: flex;
   justify-content: center;
   align-items: center;
-background-color:#FFC857;
+  background-color: #ffc857;
   height: 25vh;
   width: 25vw;
   border-radius: 25px;
 }
-
 
 footer {
   display: flex;
@@ -273,4 +274,219 @@ footer {
 }
 footer img {
   scale: 220%;
+}
+
+.big-container-text {
+  background-color: #1c3738;
+  border-radius: 25px;
+  height: 40vh;
+  width: 55vw;
+}
+
+.git-container {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  width: 100vw;
+  gap: 4vw;
+}
+
+.img-front1 {
+  background-image: url(../Image/goose.png);
+  background-position: -200px;
+  height: 50vh;
+  width: 30vw;
+  opacity: 90%;
+}
+.img-front2 {
+  background-image: url(../Image/roc.png);
+  background-position: -200px;
+  height: 50vh;
+  width: 30vw;
+  opacity: 90%;
+}
+.img-front3 {
+  background-image: url(../Image/galgje.png);
+  height: 50vh;
+  width: 30vw;
+  opacity: 90%;
+}
+.img-front4 {
+  background-image: url(../Image/mastermind.png);
+  height: 50vh;
+  width: 30vw;
+  opacity: 90%;
+}
+
+.h1-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc857;
+  height: 10vh;
+  width: 10vw;
+  border-radius: 8px;
+}
+
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: beige; /* Grey background */
+  margin-bottom: 2vh;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+.html {
+  width: 90%;
+  background-color: #ffc857;
+}
+.css {
+  width: 80%;
+  background-color: #f7b857;
+}
+.js {
+  width: 65%;
+  background-color: #f7a857;
+}
+.php {
+  width: 15%;
+  background-color: #f7a253;
+}
+#skills {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  display: flex;
+  flex-direction: column;
+  height: 4vh;
+  width: 50vw;
+  margin-bottom: 500px;
+}
+.black-p {
+  color: #1c3738;
+  line-height: 25px;
+  font-size: 16pt;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+html {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+input,
+select,
+textarea {
+  color: #5a5a5a;
+  font: inherit;
+  margin: 0;
+}
+input {
+  line-height: normal;
+}
+textarea {
+  overflow: auto;
+}
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.email {
+  float: right;
+  width: 45%;
+}
+input[type="text"],
+[type="email"],
+select,
+textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+input[type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+.message {
+  float: none;
+}
+.name {
+  float: left;
+  width: 45%;
+}
+select {
+  background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png")
+    no-repeat right;
+  outline: none;
+}
+.subject {
+  width: 100%;
+}
+.telephone {
+  width: 100%;
+}
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+#form_button:hover {
+  background: #474544;
+  color: #f2f3eb;
 }
