@@ -12,14 +12,20 @@ section {
   color: white;
   font-size: 42pt;
 } /* herbruikbare text classes */
+.text-title-bit{
+  color: white;
+  font-size: 24pt;
+}
 .text-small {
   color: white;
   font-size: 12pt;
 }
 .text-medium {
-  padding: 25px;
+  padding: 45px;
   color: white;
+  font-size: 13.5pt;
   line-height: 25px;
+  letter-spacing: 2px;
 }
 #margin-onboarding {
   margin-top: 5vh;
@@ -178,6 +184,7 @@ header p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #ffc857;
   width: 20vw;
   height: 40vh;
@@ -207,7 +214,7 @@ header p {
   text-align: center;
   line-height: 20px;
   padding: 5%;
-  width: 45%;
+  width: 70%;
 }
 #alt-title-color {
   color: #8baaad;
@@ -262,7 +269,6 @@ header p {
   width: 25vw;
   border-radius: 25px;
 }
-
 footer {
   display: flex;
   flex-direction: row;
@@ -275,14 +281,12 @@ footer {
 footer img {
   scale: 220%;
 }
-
 .big-container-text {
   background-color: #1c3738;
   border-radius: 25px;
   height: 40vh;
   width: 55vw;
 }
-
 .git-container {
   display: flex;
   justify-content: center;
@@ -290,7 +294,6 @@ footer img {
   width: 100vw;
   gap: 4vw;
 }
-
 .img-front1 {
   background-image: url(../Image/goose.png);
   background-position: -200px;
@@ -317,29 +320,25 @@ footer img {
   width: 30vw;
   opacity: 90%;
 }
-
 .h1-button {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffc857;
   height: 10vh;
-  width: 10vw;
+  width: 15vw;
   border-radius: 8px;
 }
-
 /* Make sure that padding behaves as expected */
 * {
   box-sizing: border-box;
 }
-
 /* Container for skill bars */
 .container {
   width: 100%; /* Full width */
   background-color: beige; /* Grey background */
   margin-bottom: 2vh;
 }
-
 .skills {
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
@@ -411,12 +410,7 @@ form {
   padding: 37.5px;
   margin: 50px 0;
 }
-
 h1 {
-  color: #1c3738;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 7px;
   text-align: center;
 }
 .email {
@@ -487,3 +481,9 @@ textarea {
   background: #8baaad;
   color: #f2f3eb;
 }
+
+body{
+ 
+background-image: linear-gradient(30deg, #6f6f6f77, #ffffff);
+}
+/*!!nog altijd niet over achtergrond uit!!*/
